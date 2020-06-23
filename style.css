@@ -48,6 +48,14 @@ body {
     padding-top: 50%;
 }
 
+.sq-item-hi {
+    max-height: 100%;
+}
+
+.sq-item-wi {
+    max-width: 100%;
+}
+
 .sq-item-long {
     padding-top: 75%;
 }
@@ -67,9 +75,9 @@ body {
     right : 0;
     top: 0;
     bottom: 0;
-    margin: 1rem;
+    margin: 0.35rem;
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     overflow: hidden;
     opacity: 0.5;
     font-family: 'Roboto Slab', serif;
@@ -100,7 +108,7 @@ body {
     border: 10px solid white;
     border-width: 10px;
     opacity: 1;
-    font-size: 3rem;
+    font-size: 2rem;
     box-shadow: 0 0 20px 20px rgba(0,0,0,5);
 }
 
